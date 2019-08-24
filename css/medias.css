@@ -1,0 +1,4 @@
+@media screen and (max-width:321px) {
+    input.btn.btn-lg {   /* INPUT AREA - iPhone 5 */
+        width: 70%;
+}

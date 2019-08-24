@@ -104,6 +104,10 @@ hr {
 
 /*    */ 
 
+.email {
+    width:100%;
+}
+
 
 select.frecuency {
     border: none;
@@ -132,7 +136,7 @@ select.frecuency:focus {
     width: 100%;
 }
 input.btn.btn-lg {
-    width: 60%;
+    width: 70%;
     height: 60px;
     border:1px solid #999;
     border-top-right-radius: 0;
@@ -153,16 +157,17 @@ input.btn.btn-lg {   /* INPUT AREA */
     border: 1px solid #999;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    padding:5px;
 }
-button.btn {
-    width: 60px;
+button.btn {             /* SUBMIT BUTTON */
+    width: 60px !important;
     height: 40px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     padding-top:9px;
     text-align:center;
 }
-.btn-info {
+.btn-info {         /* SUBMIT BUTTON */
     color: #fff;
     background-color: #896dea !important;
     border-color: #896dea !important;
@@ -175,6 +180,11 @@ button.btn {
 }
 .btn {
     text-align:left !important;
+}
+
+.col-md-6 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 /* L O G I N    O P T I O N S */
