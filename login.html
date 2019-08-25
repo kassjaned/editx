@@ -10,21 +10,15 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
 
-    <!-- -->
 
-    <link rel="stylesheet" type="text/css" href="bootstrap-msg.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script type="text/javascript" src="bootstrap-msg.js"></script>
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
-
-    <!-- -->
 
     <title>EditX</title>
 </head>
 <body>
+    <div class="root">
 
     <section class="header">
         <div class="logo">
@@ -37,7 +31,7 @@
         </div>
     </section>
 
-    <section class="login">
+    <section class="login"> <!-- START LOGIN SECTION -->
         <div id="letsstart">
             <h3>Let's get started!</h3>
         </div>
@@ -47,37 +41,41 @@
             
             <!-- E M A I L   F O R M-->
 
-        <div class="email">
-                    <div class="col-md-6 col-md-offset-3">
-                         <form action="#">
-                          <div class="input-group">
-                             <input class="btn btn-lg" name="email" id="email" type="email" placeholder="Your Email" required>
-                             <button class="btn btn-info btn-lg" type="submit">Go</button>
-                          </div>
-                         </form>
-                     </div>
-        </div>
+            <div class="email">
+            
+                    <input type="email" class="enteremail error" placeholder="Enter your email address" required>
+                    <button type="submit" id="signup-button" class="signup-button">Go</button>
+         
+            </div>
 
         <div class="separator">
             <div class="or">
             or
             </div></div>
 
-            <div class="loginoptions">
-                <a class="glogin" href="#"><img src="images/g.png"> Google Login</a>
-                <a class="flogin" href="#">
+            <div class="loginoptions"> <!-- SOCIAL MEDIA LOGIN OPTIONS-->
+
+                <a class="glogin fglogin" href="#">
+                    <img src="images/g.png"> Google Login</a>
+
+                <a class="flogin fglogin" href="#">
                     <img src="images/fb.png"> Facebook Login</a>
             </div>
             
             <hr>
 
+                         <!-- VIEW AS GUEST-->
+
             <p id="guestproceed"><a href="#">proceed as guest</a></p>
 
         </div>
-    </section>
+    </section> <!-- /// END LOGIN SECTION  -->
     
     <section class="footer">
         <div class="copyright"> &copy; 2019 EditX</div>
     </section>
+
+</div>
+
 </body>
 </html>

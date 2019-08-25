@@ -1,0 +1,55 @@
+.input-with-button {
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-transition:opacity .3s ease-in;
+    -o-transition:opacity .3s ease-in;
+    transition:opacity .3s ease-in;
+}
+.AuthForm .input-with-button input {
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    display:block;
+    -ms-flex:1 1;
+    flex:1 1;
+    outline:none;
+    border:1px solid #dee2e6;
+    border-right:none;
+    padding:1rem;
+    font-size:1.2em;
+    min-width:0;
+}
+
+@media (max-width:1199px) {
+    .AuthForm .input-with-button input {
+        padding:.75rem;
+    }
+}
+
+.AuthForm .input-with-button .button{
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    width:6rem;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-align:center;
+    align-items:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    font-size:1.2em;
+    font-weight:600;
+    -webkit-transition:background .15s ease-in;
+    -o-transition:background .15s ease-in;
+    transition:background .15s ease-in;
+    background:#7950f2;
+    color:#fff;
+    cursor:pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+@media (hover:hover) {
+    .AuthForm .input-with-button .button:hover { 
+        background:#845ef7;
+    }
+}

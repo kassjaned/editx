@@ -1,0 +1,54 @@
+
+.enteremail {
+  display:inline-block;
+  font-family: 'Open Sans', sans-serif;
+  height: 55px;
+  word-spacing: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  right:0;
+  padding-top: 1px;
+  width: 80%;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: solid 1px rgb(207, 207, 211);
+  color: #666;
+  font-size: 13px;
+  font-weight: 400;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.signup-button {
+  display:inline-block;
+  width: 20%;
+  font-family: 'Open Sans', sans-serif;
+  height: 55px;
+  left:0;
+  background-color: #896dea;
+  border: none;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+  outline: none;
+  position: relative;
+  float: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -moz-transition: all 0.3s ease-in-out !important;
+  -ms-transition: all 0.3s ease-in-out !important;
+  -o-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important;
+}
+.signup-button:hover {
+  background-color:#9e8ae9;
+}
