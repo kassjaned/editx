@@ -1,0 +1,133 @@
+.mainarea {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+  }
+  
+@media screen and (max-width:430px) {
+    .mainarea {
+      display:flex;
+      flex-direction:column;
+    }
+  }
+  
+  .card {
+    width:40%;
+    margin:0px auto;
+    background-color:#fff;
+    color:#666;
+    font-size:11px;
+    margin-bottom:2rem;
+  }
+  @media screen and (max-width:430px) {
+      .card {
+          width:95%;
+          margin:0 auto;
+          margin-bottom:2rem;
+      }
+  }
+  
+  .userinfo img {
+    width:30px;
+    margin-left:10px;
+  }
+  
+  .img img {
+    width:100%;
+  }
+  
+  .userinfo {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items:center;
+    padding:0 10px;
+    padding-top:5px;
+  }
+  
+  .userinfo a {
+    color:#ad77e6;
+    text-decoration:none;
+    font-style:italic;
+  }
+  .userinfo a:hover {
+    color:#afa7b8;
+  }
+  
+  hr {
+    width:50px;
+    border:none;
+    border-top:1px solid #cecbd1;
+  }
+  
+  .cardpost a {
+     color:#ad77e6;
+    text-decoration:none;
+    text-align:right;
+  }
+  .cardpost a:hover {
+    color:#afa7b8;
+  }
+  
+  .cardpost {
+    font-size:13px;
+    margin:15px 0;
+    padding:0 10px;
+  }
+  #readmore {
+    display:flex;
+    justify-content:flex-end;
+    margin:10px 0;
+  }
+
+  .react {
+    display:flex;
+    margin-top:15px;
+    flex-flow:row;
+    justify-content:space-between;
+    padding:0 10px;
+  }
+  @media screen and (max-width:430px) {
+    .react {
+        padding:0 20px;
+    }
+}
+
+  .heart {
+      background-image:url('../images/heart.png');
+      background-size:20px;
+      background-repeat:no-repeat;
+      background-position: center;
+      height:20px;
+      width:20px;
+  }
+  .heart:hover {
+      background-image:url('../images/heart_a.png');
+  }
+  .heart:active {
+      background-image:url('../images/heart_act.png');
+  }
+
+  .edit {
+    background-image:url('../images/comment.png');
+    background-size:20px;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:20px;
+    width:20px;
+}
+.edit:hover {
+    background-image:url('../images/comment_a.png');
+}
+
+.share {
+    background-image:url('../images/share.png');
+    background-size:20px;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:20px;
+    width:20px;
+}
+.share:hover {
+    background-image:url('../images/share_a.png');
+}

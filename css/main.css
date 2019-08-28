@@ -63,6 +63,12 @@ h3 {
 .user { 
     grid-area: user; 
     top:0;
+    justify-content:center;
+}
+
+.usericon {
+  margin-left:15px;
+  cursor:pointer;
 }
 
 
@@ -70,11 +76,13 @@ h3 {
     width: 42px;
     top:0;
     margin:0;
+    justify-self:center;
 }
 
 .logo {
     grid-area: logo;
     margin-bottom:10px;
+    justify-self:center;
 
 }
 .logo img {
@@ -165,12 +173,13 @@ h3 {
     font-size:17px;
 }
 .navbar1 a {
-    margin-bottom:7px;
+    line-height:32px;
     color:#896dea;
 }
 
 .navbar2 { 
     grid-area: navbar2; 
+    border-bottom:3px solid #fff;
     bottom:0;
     display:flex;
     justify-content:center;
@@ -180,6 +189,17 @@ h3 {
     font-size:17px;
 }
 .navbar2 a {
-    margin-bottom:10px;
+    line-height:32px;
     color:#666;
+}
+.navbar2:hover {
+    border-bottom:3px solid #896dea;
+    color:#896dea;
+}
+
+/*    M A I N    A R E A   */
+
+
+.mainarea {
+  padding:20px;
 }
