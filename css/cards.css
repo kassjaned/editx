@@ -19,13 +19,30 @@
     font-size:11px;
     margin-bottom:2rem;
   }
+  .fullcard {
+    margin:0px auto;
+    background-color:#fff;
+    color:#666;
+    font-size:11px;
+    margin-bottom:2rem;
+  }
+  .fullcard hr {
+      margin:15px auto;
+  }
   @media screen and (max-width:430px) {
       .card {
-          width:95%;
+          width:90%;
           margin:0 auto;
           margin-bottom:2rem;
       }
   }
+  @media screen and (max-width:700px) {
+    .fullcard {
+        width:95%;
+        margin:0 auto;
+        margin-bottom:2rem;
+    }
+}
   
   .userinfo img {
     width:30px;
@@ -80,16 +97,21 @@
     margin:10px 0;
   }
 
-  .react {
+.react {
     display:flex;
     margin-top:15px;
     flex-flow:row;
     justify-content:space-between;
     padding:0 10px;
-  }
-  @media screen and (max-width:430px) {
+}
+@media screen and (max-width:500px) {
     .react {
-        padding:0 20px;
+        padding:10px 20px;
+    }
+}
+@media screen and (min-width:431px) {
+    .react {
+        padding:0px 30px;
     }
 }
 

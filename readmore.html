@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" href="images/logo.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/cards.css">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(".btn").click(function(){
+            $("input").toggleClass("active").focus().val();
+            $(this).toggleClass("animate");
+            $(".input").val("");
+        })
+    });
+    </script>
+
+    <title>EditX</title>
+
+</head>
+<body>
+
+<section class="header"> <!-- H E A D E R -->
+
+    <div class="logo">
+            <a href="main.html"><img src="images/logo.png"></a>
+    </div>
+
+
+        <div class="search-box"> <!-- animated searchbar by Coding Market -->
+            <input type="text" placeholder="Search" class="input">
+            <div class="btn">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+        </div>
+    
+
+    <div class="user">
+        <a class="usericon" href="#"><img src="images/user.png"></a>
+    </div>
+
+    </div>
+
+
+        <div class="navbar1">
+            <a href="#">Trending</a>
+        </div>
+        <div class="navbar2">
+            <a href="#">Recent</a>
+        </div>
+
+
+</section>
+
+<section class="mainarea">
+
+          <!--  C A R D   -->
+
+
+    <div class="fullcard">
+        <div class="img">
+          <a href="#"><img src="https://i.ibb.co/PmfD5Hh/thumb.png" alt="thumb" border="0"></a>
+        </div>
+        <div class="userinfo">
+          <a href="#">username</a> <a href="#"><img src="https://png.pngtree.com/svg/20170602/user_circle_1048392.png"></a>
+        </div>
+        
+        <hr>
+       
+        <div class="cardpost">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Phasellus tempus congue lorem, at varius libero tempor vel. 
+                Proin non odio velit. Curabitur scelerisque enim id libero luctus pulvinar. 
+                Vestibulum hendrerit enim et ligula interdum, sed venenatis neque tristique. 
+                Pellentesque sit amet metus sed turpis iaculis iaculis. Donec facilisis fringilla tortor, 
+                nec imperdiet nisi aliquam id. Sed convallis lorem ac viverra elementum. Praesent lobortis, 
+                leo quis tincidunt bibendum, eros felis posuere enim, sit amet sodales quam tortor mattis nunc. 
+                Proin et elit pretium, vestibulum risus sed, sagittis urna.
+                    <br><br>
+                Donec ut bibendum nibh. Nunc ultrices pharetra finibus. 
+                Etiam nec elit vel arcu feugiat commodo. In sollicitudin venenatis diam non malesuada. 
+                In at cursus mi, ac hendrerit augue. Donec vel elit ac augue fermentum hendrerit cursus at 
+                diam. Sed ac lacus sapien. Praesent auctor porta efficitur. Nulla eu tincidunt mauris, 
+                ac vehicula enim. Nunc dictum interdum ipsum, a gravida risus vulputate at. Phasellus ullamcorper 
+                lorem purus, et volutpat risus sollicitudin nec. Aliquam hendrerit ex in erat convallis fermentum. 
+                Fusce lacinia leo ac massa porttitor ornare quis non enim. Duis cursus nibh nulla, ac fringilla leo tempor a.
+
+        
+          
+          <hr>
+          
+          <div class="react">
+            <a class="heart" href="#"></a>
+            <a class="edit" href="#"></a>
+            <a class="share" href="#"></a>
+          </div>
+        </div>
+      </div>
+
+    
+</section>
+
+
+
+</body>
+</html>
