@@ -104,7 +104,6 @@
         width:20%;
     }
     .navbar1 {
-  
         display:block;
         text-align:left;
         border-bottom:none;
@@ -115,6 +114,10 @@
         border-right:2px solid #896dea;
         padding-top:1rem;
         padding-bottom:1rem;
+        color:#666;
+    }
+    .navbar1 a {
+        color:#896dea;
     }
     .navbar1:hover {
         background-color:#f1f3f5;
@@ -130,6 +133,9 @@
         padding-left:1.25rem;
         padding-top:1rem;
         padding-bottom:1rem;
+    }
+    .navbar2 a {
+        color:#666;
     }
     .navbar2:hover {
         background-color:#f1f3f5;

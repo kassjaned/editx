@@ -53,16 +53,17 @@ h3 {
 }
 
 .loglogo img {
-    margin:20px auto;
-    max-width:50px;
+    margin:1.3rem auto;
+    max-width:90px;
 }
 
 .xdesc {
     width:60%;
     margin:0 auto;
     color:#fff;
+    margin-top:1.25rem;
     margin-bottom:1.25rem;
-    font-size:1.7rem;
+    font-size:1.3rem;
 }
 
 /*  M A I N  */
