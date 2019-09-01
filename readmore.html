@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/media.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/dropdown.css">
     <link rel="stylesheet" type="text/css" href="css/cards.css">
 
 
@@ -34,7 +35,7 @@
 <section class="header"> <!-- H E A D E R -->
 
     <div class="logo">
-            <a href="main.html"><img src="images/logo.png"></a>
+            <a href="main.html"><img src="images/logo2.png"></a>
     </div>
 
 
@@ -45,25 +46,53 @@
             </div>
         </div>
     
+        <div class="desksearchbox"> <!-- DESKTOP SEARCHBAR (MIN-WIDTH: 800PX-->
+            <div class="gray">
+                 <input value>
+            </div>
+         </div>
 
-    <div class="user">
-        <a class="usericon" href="#"><img src="images/user.png"></a>
-    </div>
+        <div class="user">
+                <div class="imgicon">
+                    <img src="images/user.png">
+                </div>
+                    
+                    <div class="dropdown-content">
+                        <a href="#settings">Settings</a>
+                        <a href="#notifs">Notifications</a>
+                        <a href="#post">New Post</a>
+                        <a href="#myposts">My Posts</a>
+                    </div>
+        </div>
 
     </div>
 
 
         <div class="navbar1">
-            <a href="#">Trending</a>
+            <a href="main.html">Trending</a>
         </div>
         <div class="navbar2">
-            <a href="#">Recent</a>
+            <a href="recent.html">Recent</a>
         </div>
 
 
 </section>
 
 <section class="mainarea">
+
+     <div class="topbar">
+    <div class="imgicon">
+      <img src="images/user.png">
+    </div>
+      
+      <div class="dropdown-content">
+          <a href="#settings">Settings</a>
+          <a href="#notifs">Notifications</a>
+          <a href="#post">New Post</a>
+          <a href="#myposts">My Posts</a>
+        </div>
+    </div>
+  </div>
 
           <!--  C A R D   -->
 
@@ -112,6 +141,8 @@
 </section>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="js/dropdown.js"></script>
 
 </body>
 </html>

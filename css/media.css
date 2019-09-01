@@ -1,4 +1,7 @@
 
+/**** This is the stylesheet for Desktop (min-width:800px) ***/
+
+
 /* ------ L O G I N   P A G E ------ */
 
 @media screen and (min-width:700px) {
@@ -24,4 +27,151 @@
 }
 
 
-/* ------ H O M E    P A G E ------ */
+/* ------ H O M E  P A G E   ::   S I D E B A R - ----- */
+
+@media screen and (max-width:799px) {
+    .desksearchbox {
+        display:none;
+    }
+}
+@media screen and (min-width:800px) {
+    .header {
+        display:flex;
+        flex-direction: column;
+        width:15rem;
+        position: fixed;
+        background:#fff;
+        height:100%;
+        top:0;
+        left:0;
+        box-shadow:-6px 0 12px 0 #d6dee4;
+    }
+    .logo {
+        padding:0 2rem;
+        margin-top:1.8rem;
+        margin-bottom: 1.9rem;
+        display:block;
+        position:relative;
+    }
+    .search-box { /* This is the animated expanding searchbar on smaller screns */
+        display:none;
+    }
+
+    .desksearchbox {    /* Full width non-animated searchbar for large screens */
+        padding-left:1.75rem;
+        padding-right:1.75rem;
+        margin-bottom:2rem;
+        margin-top:2rem;
+    }
+    .gray {   
+        background:#f1f3f5;
+        border-radius:4px;
+        align-items:center;
+        color:rgb(47, 45, 48);
+        border:1px solid #dee2e6;
+        padding-left:.5rem;
+        transition:all .125s ease-in;
+    }
+    .desksearchbox input {
+        background:none;
+        border:none;
+        outline:none;
+        padding-top:.5rem;
+        padding-bottom:.5rem;
+        font-size:.87rem;
+        flex:1 1;
+        margin-left:.5rem;
+        color:inherit;
+    }
+}
+
+
+
+/* ------ H O M E  P A G E   ::   M A I N   P O S T S   A R E A  - ----- */
+
+@media screen and (min-width:800px) {
+    .user {
+        display:none;
+    }
+    .mainarea {
+        margin-left:15rem;
+        width:75%;
+        display:flex;
+        flex-flow:row wrap;
+        padding-top:1.25rem;
+    }
+    .card {
+        width:20%;
+    }
+    .navbar1 {
+  
+        display:block;
+        text-align:left;
+        border-bottom:none;
+        font-size:17px;
+        font-family:'Open sans', sans-serif;
+        font-weight:400;
+        padding-left:1.25rem;
+        border-right:2px solid #896dea;
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+    .navbar1:hover {
+        background-color:#f1f3f5;
+        cursor:pointer;
+    }
+    .navbar2 {
+        display:block;
+        text-align:left;
+        border-bottom:none;
+        font-size:17px;
+        font-family:'Open sans', sans-serif;
+        font-weight:400;
+        padding-left:1.25rem;
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+    .navbar2:hover {
+        background-color:#f1f3f5;
+        cursor:pointer;
+    }
+
+    .navbar3 { 
+        display:block;
+        text-align:left;
+        border-bottom:none;
+        font-size:17px;
+        font-family:'Open sans', sans-serif;
+        font-weight:400;
+        padding-left:1.25rem;
+        border-right:2px solid #fff;
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+    .navbar3 a {
+        line-height:32px;
+        color:#666;
+    }
+    
+    .navbar4 { 
+        display:block;
+        text-align:left;
+        border-bottom:none;
+        font-size:17px;
+        font-family:'Open sans', sans-serif;
+        font-weight:400;
+        padding-left:1.25rem;
+        border-right:2px solid #896dea;
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+    .navbar4 a {
+        line-height:32px;
+        color:#896dea;
+    }
+    .navbar:hover {
+        border-bottom:3px solid #896dea;
+        color:#896dea;
+    }
+}
+

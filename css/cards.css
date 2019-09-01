@@ -1,15 +1,4 @@
-.mainarea {
-    display:flex;
-    flex-flow: row wrap;
-    justify-content:center;
-  }
-  
-@media screen and (max-width:430px) {
-    .mainarea {
-      display:flex;
-      flex-direction:column;
-    }
-  }
+
   
   .card {
     width:40%;
@@ -42,6 +31,13 @@
         margin:0 auto;
         margin-bottom:2rem;
     }
+}
+
+@media screen and (min-width:700px) {
+   .fullcard {
+     width:90%;
+     margin:0 auto;
+   }
 }
   
   .userinfo img {
